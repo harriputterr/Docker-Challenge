@@ -1,0 +1,46 @@
+/* General body styles */
+body {
+    font-family: 'Arial', sans-serif; /* Sets the font for the page */
+    background-color: #f0f0f0; /* Light grey background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    height: 100vh; /* Full viewport height */
+}
+
+/* Container styles */
+.container {
+    text-align: center;
+    background-color: #ffffff; /* White background for the container */
+    padding: 20px 40px; /* Padding inside the container */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for 3D effect */
+}
+
+/* Heading styles */
+h1 {
+    color: #333333; /* Dark grey color for the text */
+    margin: 10px 0; /* Margin between headings */
+}
+
+/* Specific styles for name and id */
+.name {
+    color: #2c3e50; /* Dark blue color for the name */
+}
+
+.id {
+    color: #16a085; /* Green color for the ID */
+}
+
+/* Media query for responsiveness on smaller screens */
+@media (max-width: 600px) {
+    .container {
+        padding: 10px 20px; /* Smaller padding */
+    }
+    
+    h1 {
+        font-size: 1.5em; /* Smaller font size */
+    }
+}
