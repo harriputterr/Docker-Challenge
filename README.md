@@ -7,19 +7,19 @@ Instructor - Helder Oliveira
 # How to run this repo?
 
 1. Clone the repository:
-   git clone "https://github.com/harriputterr/Docker-Challenge"
+   - git clone "https://github.com/harriputterr/Docker-Challenge"
 
 2. Navigate to the project directory:
-   cd Docker-Challenge
+   - cd Docker-Challenge
 
 3. Install the necessary dependencies:
-   npm install
+   - npm install
 
 4. Navigate to the challenge2 folder:
-   cd challenge2
+   - cd challenge2
 
 5. Build and run the Docker containers:
-   docker-compose up --build
+   - docker-compose up --build
 
 HOORAY!
 Now, open your browser and go to:
