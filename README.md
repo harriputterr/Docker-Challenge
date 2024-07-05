@@ -1,11 +1,11 @@
 # Docker Challenge 1 & 2
-<br> 
+<br/> 
 ## Name - Harsingh Sekhon 
 ## Student ID = 000882987
 ## Instructor - Helder Oliveira
 
 # How to run this repo? 
-<br>
+<br/>
 ## 1. git clone "https://github.com/harriputterr/Docker-Challenge"
 ## 2. npm install
 ## 3. docker build up -t
