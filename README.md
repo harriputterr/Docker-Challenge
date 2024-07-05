@@ -1,8 +1,8 @@
 # Docker Challenge 1 & 2
 
-Name - Harsingh Sekhon
-Student ID - 000882987
-Instructor - Helder Oliveira
+- Name - Harsingh Sekhon
+- Student ID - 000882987
+- Instructor - Helder Oliveira
 
 # How to run this repo?
 
