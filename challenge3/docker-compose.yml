@@ -1,0 +1,27 @@
+services:
+  nginx:
+    image: nginx:latest
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./docker/nginx/nginx.conf:/etc/nginx/default.conf:ro
+    depends_on:
+      - node-service
+  node-service:
+    build:
+      context: ./docker/api
+    ports: 
+      - "3000:3000"
+    environment:
+      NODE_ENV: production
+  db:
+    image: mariadb
+    restart: always
+    volumes:
+      - mariadb_volume:/var/lib/mysql
+    env_file:
+      - .env
+    ports: 
+      - "3306:3306"
+volumes:
+  mariadb_volume:
