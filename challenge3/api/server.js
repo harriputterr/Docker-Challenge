@@ -1,3 +1,4 @@
+require('dotenv').config()
 const express = require('express');
 const fs = require('fs');
 const mysql = require('mysql');
@@ -10,6 +11,8 @@ const pid = process.pid;
 const env = process.env;
 
 globalThis.globalStatsCounter = 0
+
+console.log(process.env.DB_HOST);
 
 
 const memoryKeys = ['MemFree', 'MemAvailable'];
@@ -61,6 +64,7 @@ const pool = mysql.createPool({
     password: env.DB_PASSWORD,
     database: env.DB_DATABASE
 });
+
 
 
 // Route to get all books
